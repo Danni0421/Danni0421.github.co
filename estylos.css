@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbarNavDropdown{
+    text-align: right;
+    float: right;
+  margin-left: 200px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+  
+}
+
+
+#bolsa{
+    float: left;
+    margin-left: 300px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+#selec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:80vh;
+    color: white;
+    background-image: 
+       url(imagenes/Menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family:'Lobster', cursive; ;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 20px 15px 7px rgba(226, 185, 185, 0.925);
+}
+
+.container{
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgb(241, 195, 8);
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(66, 64, 64);
+}
+.title{
+    font-family:'Lobster', cursive; ;
+}
+
+.color-selec{
+
+display: flex;
+align-items: center;
+justify-content: center;
+line-height: 35px;
+
+}
+.color-selec div{
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+ background-color: rgb(94, 18, 18);
+   color: white;
+   font-size: 15px;
+   margin-left: 5px;
+}
+
+.color-selec div:hover{
+    text-decoration: underline;
+}
+
+#imagen{
+    width: 350px;
+}
+
+#texto{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#p1{
+    margin-top: 10px;
+    font-size: 20px;
+   
+}
+
+#agregarFila{
+    width: 100px;
+    background: #448a1b;
+    border-radius: 10px ;
+    padding: 3px;
+    color:white;
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+    border: 1px solid #448a1b;
+    margin-top: -10px;
+}
+.botons:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.contenedor{
+   width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(241, 195, 8);
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(66, 64, 64);
+}
+.title2{
+    font-family:'Lobster', cursive; ;
+}
+
+.color{
+    width: 90vw;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    }
+    .color div{
+        border-radius: 10px;
+        width: 250px;
+        cursor: pointer;
+     background-color: rgb(94, 18, 18);
+       color: white;
+       font-size: 13px;
+       margin-left: 5px;
+    }
+    .color div:hover{
+        text-decoration: underline;
+    }
+
+    #imagen2{
+        margin-top: 10px;
+        width: 250px;
+    }
+
+
+
+    .conten{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        background-color: rgb(241, 195, 8);
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgb(66, 64, 64);
+    }
+    .title3{
+        font-family:'Lobster', cursive; ;
+    }
+    
+    .color3{
+        width: 70vw;
+       
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 35px;
+        
+        }
+        .color3 div{
+            border-radius: 10px;
+            width: 255px;
+            cursor: pointer;
+         background-color: rgb(94, 18, 18);
+           color: white;
+           font-size: 15px;
+           margin-left: 16px;
+        }
+        .color3 div:hover{
+            text-decoration: underline;
+        }
+    
+        #imagen3{
+            margin-top: 10px;
+            width: 350px;
+        }
+
+
+        .conte{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            background-color: rgb(241, 195, 8);
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgb(66, 64, 64);
+        }
+        .title4{
+            font-family:'Lobster', cursive; ;
+        }
+        
+        .color4{
+            width: 75vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 35px;
+            
+            }
+            .color4 div{
+                border-radius: 10px;
+                width: 200px;
+                cursor: pointer;
+             background-color: rgb(94, 18, 18);
+               color: white;
+               font-size: 15px;
+               margin-left: 16px;
+            }
+            .color4 div:hover{
+                text-decoration: underline;
+            }
+
+            #imagen4{
+                margin-top: 10px;
+                width: 350px;
+            }
+        
+
+
+
+
+            .tabla-calculo {
+                display: flex;
+                justify-content: center;
+              }
+              .tabla {
+                width:80%;
+                table-layout: fixed;
+                border-collapse: collapse;
+                color: white;
+                margin-bottom: 2rem;
+                empty-cells: hide;
+                border-radius: 10px;
+              }
+              .titulo-tabla {
+                font-size: 1.5rem;
+                padding: .5rem;
+              }
+              .border-top-left {
+                border-top-left-radius: 10px;
+              }
+              .border-top-right {
+                border-top-right-radius: 10px;
+              }
+              .border-bottom-right {
+                border-bottom-right-radius: 10px;
+              }
+              .border-bottom-left {
+                border-bottom-left-radius: 10px;
+              }
+              th {
+                font-size: 1.1rem;
+                background: hsla(210, 60%, 70%, .7);
+              }
+              th, td, tr {
+                border: var(--border-table);
+                text-align: center;
+                padding: .4rem 0;
+              }
+              td {
+                background: hsla(210, 40%, 90%, .9);
+                color: black;
+              }
+              .precio-tabla::before {
+                content: 'US$';
+                padding-right: 0.4rem;
+              }
+              .button {
+                margin: 0 .4rem;
+                border: var(--border-table);
+                background: hsla(250, 70%, 50%, .7);
+                color: white;
+                cursor: pointer;
+              }
+              .negrita {
+                font-weight: bold;
+              }
+              .none {
+                background: transparent;
+                border: none;
+              }
+
+
+            .pie{
+                margin-top: 30px;
+            }
+            
+            .bi{
+                background: white;
+                color: rgb(26, 107, 26);
+                font-size: 2rem;
+               }
+
+            

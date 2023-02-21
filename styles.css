@@ -1,0 +1,74 @@
+#navbarNavDropdown{
+    text-align: right;
+    float: right;
+  margin-left: 200px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:80vh;
+    color: rgb(255, 255, 255);
+    background-image: 
+       url(imagenes//menu2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family:'Lobster', cursive; 
+    font-size: 105px;
+    text-shadow: 20px 15px 7px rgba(165, 162, 162, 0.925);
+
+}
+#menu2{
+text-align:center;
+margin-left: 20px;
+margin-top: 45px;
+color: rgb(10, 10, 10);
+font-family:'Lobster', cursive; ;
+background-color: darkgoldenrod;
+}
+
+
+#menu3{
+    text-align:center;
+    margin-left: 20px;
+    margin-top: 45px;
+    color: rgb(10, 10, 10);
+    font-family:'Lobster', cursive; ;
+    background-color: darkgoldenrod;
+    }
+
+    
+
+
+    #menu4{
+        text-align:center;
+        margin-left: 20px;
+        margin-top: 45px;
+        color: rgb(10, 10, 10);
+        font-family:'Lobster', cursive; ;
+        background-color: darkgoldenrod;
+        }
+
+        #imagen{
+            width: 200px;
+            float: left;
+        }
+
+        .pie{
+            margin-top: 50px;
+        }
+
+        .bi{
+            background: white;
+            color: rgb(26, 107, 26);
+            font-size: 2rem;
+           }
+        
+    

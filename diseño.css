@@ -1,0 +1,150 @@
+*{
+   
+}
+
+body{
+    color: rgb(29, 28, 28);
+    font-family:'Quicksand',sans-serif;
+   
+}
+
+.fondo{
+   width: 100%;
+    height:120vh;
+    color: rgb(255, 255, 255);
+    background-image: url(imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#navbarNavDropdown{
+    background: white;
+    text-align: right;
+    float: right;
+  margin-left: 200px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.logo{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 20px 15px 7px rgba(165, 162, 162, 0.925);
+}
+
+.contact-wraper{
+    box-shadow: 0 0 20px 0 rgb(245, 241, 241);
+}
+.contact-wraper > * {
+    padding: 1em;
+}
+
+.contact-form{
+    background: rgba(3, 7, 44, 0.829);
+}
+
+.contact-form form{
+display: grid;
+grid-template-columns:  1fr  1fr;
+}
+
+.contact-form form .block{
+grid-column: 1/3;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 0em;
+    border: none;
+    outline: 0;
+    background: none;
+    color: white;
+    border-bottom: 1px solid rgb(184, 178, 178);
+}
+
+.contact-form form button{
+    background: blue;
+    padding: 1em;
+    border: 0;
+    text-transform: uppercase;
+}
+.contact-form form button:hover,
+.contact-form form button:focus{
+    background: rgb(248, 246, 246);
+color: blue;
+text-decoration: underline;
+transition: background-color 1s ease-out;
+outline: 0;
+}
+.contact-info{
+    background: rgba(5, 14, 102, 0.829);
+}
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-size: 15px;
+
+}   
+
+.contact-info ul{
+list-style: none;
+padding: 0;
+}
+
+.contact-info ul li {
+    padding: .3em;
+}
+
+
+
+   
+@media (min-width:700px){
+  body{
+    padding: 0 4 rem;
+  }  
+  .contact-wraper{
+    display:grid ;
+    grid-template-columns: 2fr  1fr;
+  }
+
+  .contact-wraper > * {
+    padding: 2em;
+
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    padding: 1em;
+    text-align: left;
+}
+}
+
+.pie{ 
+    background-color: rgb(253, 253, 253);
+    margin-top: 50px;
+}
+
+.bi-twitter,
+.bi-instagram,
+.bi-facebook{
+    background: rgb(250, 250, 250);
+    color: rgb(26, 107, 26);
+    font-size: 2rem;}
